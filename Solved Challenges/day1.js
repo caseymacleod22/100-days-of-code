@@ -1,4 +1,4 @@
-/////// ROSETTA CODE: 100 DOORS ///////
+//// 100 Doors ////
 
 /* 
 create an array with 100 doors, represented by a boolean value
@@ -16,7 +16,7 @@ function getFinalDoor(doors) {
 
     let counter = 1
     while (counter <= doors) {
-        for (i =counter; i <= doors; i += counter) {
+        for (i = counter; i <= doors; i += counter) {
             doorsArray[i] = !doorsArray[i]
         }
         counter += 1
