@@ -10,7 +10,7 @@ function detectWord(word) {
     return lowerCase.join('')
 }
 
-console.log(detectWord('KJHaHLJJpJHpIJKHVNMlIUYIUBEe'))
+// console.log(detectWord('KJHaHLJJpJHpIJKHVNMlIUYIUBEe'))
 
 
 function isTrue(relation) {
